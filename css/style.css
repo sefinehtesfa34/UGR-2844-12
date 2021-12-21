@@ -16,7 +16,7 @@
                                 margin-bottom: 3em;
                             }
                             
-                            @media (max-width:550px) {
+                            @media (max-width:320px) {
                                 .image img {
                                     max-width: 20%;
                                     height: auto;
@@ -101,7 +101,7 @@
                                 grid-template-areas: "home about blog contact"
                             }
                             
-                            @media(max-width: 550px) {
+                            @media(max-width: 320px) {
                                 nav {
                                     display: grid;
                                     grid-template-columns: 1fr;
@@ -110,7 +110,7 @@
                                 }
                             }
                             
-                            @media(max-width: 450px) {
+                            @media(max-width: 320px) {
                                 .container {
                                     grid-template-rows: 1fr auto 1fr;
                                     grid-template-columns: auto;
@@ -118,7 +118,7 @@
                                 }
                             }
                             
-                            @media (max-width:550px) {
+                            @media (max-width:320px) {
                                 main {
                                     width: 100%;
                                     height: auto;
@@ -152,7 +152,7 @@
                                 max-height: 25%;
                             }
                             
-                            @media(max-width:320) {
+                            @media(max-width:320px) {
                                 #child_image {
                                     position: relative;
                                     /* float: right; */
@@ -160,6 +160,13 @@
                                     max-width: 25%;
                                     max-height: 25%;
                                     margin: auto;
+                                }
+                                #home,
+                                #about,
+                                #blog,
+                                #contact {
+                                    font-size: 1em;
+                                    font-family: sans-serif;
                                 }
                             }
                             
@@ -195,7 +202,7 @@
                                 padding: 20px;
                             }
                             
-                            @media(max-width:550px) {
+                            @media(max-width:320px) {
                                 .my_academy {
                                     position: relative;
                                     display: grid;
@@ -219,7 +226,7 @@
                                 width: 100%;
                             }
                             
-                            @media (max-width:550px) {
+                            @media (max-width:320px) {
                                 .table1 {
                                     position: relative;
                                     padding-top: 10em;
@@ -283,7 +290,7 @@
                                 margin-bottom: 5em;
                             }
                             
-                            @media(max-width:550px) {
+                            @media(max-width:320px) {
                                 #submit_message,
                                 #submit_feedback {
                                     display: flex;
@@ -309,7 +316,7 @@
                                 border-radius: 10px;
                             }
                             
-                            @media(max-width:550px) {
+                            @media(max-width:320px) {
                                 .message,
                                 .feedback {
                                     position: relative;
@@ -345,7 +352,7 @@
                                 margin: 25px;
                             }
                             
-                            @media(max-width:550px) {
+                            @media(max-width:320px) {
                                 form {
                                     margin: 25%;
                                 }
@@ -406,7 +413,7 @@
                                 overflow-x: hidden !important;
                             }
                             
-                            @media screen and (max-width: 667px) {
+                            @media screen and (max-width: 320px) {
                                 #submit_feedback,
                                 #submit_message {
                                     align-self: center;
