@@ -41,10 +41,19 @@
             </ul>
         </div>
     </main>
-</div>
-<div class="button">
-    <button id="back">Back</button>
-    <button id="next">Next</button>
-</div>
+
+    <div class="button">
+        <button id="back" onclick="backHome()">Back</button>
+        <button id="next" onclick="nextName()">Next</button>
+    
+    </div>
+        <script>
+            function nextName(){
+                location.href="certificatons.html";
+            }
+            function backHome(){
+                location.href="my_academy_status.html";
+            }
+        </script>
     </body>
-</html>
+    </html>
