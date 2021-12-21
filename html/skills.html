@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>My skills page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../css/style.css">
-    </head>
-    <body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills page</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>    <body>
         <div class="container">
             <div class="navigtion">
                 <nav>
@@ -41,19 +42,19 @@
             </ul>
         </div>
     </main>
+</div>
+<div class="button">
+    <button id="back" onclick="backHome()">Back</button>
+    <button id="next" onclick="nextName()">Next</button>
 
-    <div class="button">
-        <button id="back" onclick="backHome()">Back</button>
-        <button id="next" onclick="nextName()">Next</button>
-    
-    </div>
-        <script>
-            function nextName(){
-                location.href="certificatons.html";
-            }
-            function backHome(){
-                location.href="my_academy_status.html";
-            }
-        </script>
-    </body>
-    </html>
+</div>
+    <script>
+        function nextName(){
+            location.href="certifications.html";
+        }
+        function backHome(){
+            location.href="skills.html";
+        }
+    </script>
+</body>
+</html>
