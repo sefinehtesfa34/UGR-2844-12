@@ -152,6 +152,17 @@
                                 max-height: 25%;
                             }
                             
+                            @media(max-width:320) {
+                                #child_image {
+                                    position: relative;
+                                    /* float: right; */
+                                    display: block;
+                                    max-width: 25%;
+                                    max-height: 25%;
+                                    margin: auto;
+                                }
+                            }
+                            
                             .links_of_about_page ul {
                                 text-decoration: none;
                                 font: bold;
