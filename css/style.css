@@ -481,7 +481,7 @@
                         #back {
                             align-self: left;
                             width: 4rem;
-                            background-color: royalblue;
+                            background-color: orange;
                             margin-left: 5rem;
                             margin-top: 2rem;
                         }
@@ -489,7 +489,7 @@
                         #next {
                             float: right;
                             width: 4rem;
-                            background-color: rosybrown;
+                            background-color: orange;
                             margin-right: 5rem;
                             margin-top: 2rem;
                         }
