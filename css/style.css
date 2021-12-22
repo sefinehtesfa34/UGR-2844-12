@@ -86,7 +86,7 @@
                         #about:hover,
                         #blog:hover,
                         #contact:hover {
-                            background-color: rgb(255, 200, 190, 1);
+                            background-color: orange;
                             border-radius: 15px;
                         }
                         
