@@ -458,13 +458,13 @@
                             color: white;
                         }
                         
-                        .AC {
+                        .accounts_list {
                             font-size: 3em;
                             text-align: center;
                             color: white;
                         }
                         
-                        .AC:hover {
+                        .accounts_list:hover {
                             background-color: rgb(245, 169, 29);
                             font-size: 3em;
                             text-align: center;
@@ -501,4 +501,8 @@
                         
                         a {
                             color: white;
+                        }
+                        
+                        #telegram {
+                            color: orange;
                         }
